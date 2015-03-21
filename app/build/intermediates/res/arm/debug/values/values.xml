@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Al%20Campelo/AndroidstudioProjects/AndroidShaders/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Shader Performance</string>
+    <string name="cubemap">Cube Map Shader</string>
+    <string name="flat">Flat Shader</string>
+    <string name="gouraud">Gouraud Shader</string>
+    <string name="loading">Loading Resources</string>
+    <string name="phong">Phong Shader</string>
+    <string name="quit">Quit</string>
+    <string name="randc">Random Color Shader</string>
+    <string name="red">Red Shader</string>
+    <string name="reflection">Reflection Shader</string>
+    <string name="simpletex">Simple Texture Shader</string>
+    <string name="toon">Toon Shader</string>
+</resources>

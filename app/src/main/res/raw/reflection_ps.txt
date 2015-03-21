@@ -1,0 +1,12 @@
+varying mediump vec3 EyeDir;
+varying mediump vec3 Normal;
+
+uniform samplerCube s_texture; 
+
+                     
+void main()                                         
+{
+  mediump vec3 reflectedDirection = normalize(reflect(EyeDir, normalize(Normal)));                                                 
+  reflectedDirection.y = -reflectedDirection.y;
+  gl_FragColor = textureCube( s_texture, reflectedDirection);
+}  
